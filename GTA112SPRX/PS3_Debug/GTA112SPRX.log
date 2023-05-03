@@ -1,0 +1,61 @@
+﻿  prx.cpp
+utils.h(38,9): warning 1070: returning pointer to local variable
+  
+utils.h(43,15): warning 1067: conversion from integer to smaller pointer
+  
+utils.h(56,13): warning 552: variable "err" was set but never used
+  
+utils.h(59,5): warning 178: variable "ret" was declared but never referenced
+  
+utils.h(67,5): warning 552: variable "err" was set but never used
+  
+utils.h(70,5): warning 178: variable "ret" was declared but never referenced
+  
+utils.h(110,12): warning 187: pointless comparison of unsigned integer with zero
+  
+GTAStructs.h(116,1): warning 376: declaration requires a typedef name
+  
+GTAStructs.h(171,7): warning 1700: struct "Metric" has virtual functions but non-virtual destructor
+  
+GTAStructs.h(690,15): warning 187: pointless comparison of unsigned integer with zero
+  
+GTAStructs.h(700,22): warning 187: pointless comparison of unsigned integer with zero
+  
+GTAStructs.h(705,24): warning 187: pointless comparison of unsigned integer with zero
+  
+gtaCode.h(31): warning 942: missing return statement at end of non-void function "drawText"
+  
+gtaCode.h(55): warning 942: missing return statement at end of non-void function "drawRectXY"
+  
+gtaCode.h(118,8): warning 552: variable "iVar0" was set but never used
+  
+gtaCode.h(257,12): warning 1067: conversion from integer to smaller pointer
+  
+gtaCode.h(258,9): warning 1067: conversion from integer to smaller pointer
+  
+mods.h(12): warning 942: missing return statement at end of non-void function "Write_Global"
+  
+mods.h(273,32): warning 1772: argument of type "float" is implicitly converted to parameter (2 of SET_CAM_NEAR_CLIP) of type "Any"
+  
+menu.h(223,8): warning 1070: returning pointer to local variable
+  
+menu.h(838,2): warning 548: transfer of control bypasses initialization of:
+              variable "Pos1" (declared at line 842)
+  
+menu.h(917): warning 1635: switch statement is missing case and default labels
+  
+menu.h(944): warning 1635: switch statement is missing case and default labels
+  
+menu.h(969,2): warning 548: transfer of control bypasses initialization of:
+              variable "Pos1" (declared at line 984)
+  
+menu.h(764,1): warning 548: transfer of control bypasses initialization of:
+              variable "VehicleHandle" (declared at line 851)
+              variable "VehID" (declared at line 1025)
+  
+utils.h(21,10): warning 84: type qualifier specified more than once
+  
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\PC_TEST\Desktop\GTA112SPRX-main\PS3_Debug\GTA112SPRX.sprx) does not match the Linker's OutputFile property value (C:\Users\PC_TEST\Desktop\GTA112SPRX-main\PS3_Debug\GTA112.sprx). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(GTA112SPRX) does not match the Linker's OutputFile property value (GTA112). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  GTA112SPRX.vcxproj -> C:\Users\PC_TEST\Desktop\GTA112SPRX-main\PS3_Debug\GTA112SPRX.sprx
+  Moving Stub Library cellPrx_GTA112SPRX_stub.a -> C:\Users\PC_TEST\Desktop\GTA112SPRX-main\PS3_Debug\
