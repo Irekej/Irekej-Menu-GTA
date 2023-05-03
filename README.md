@@ -11,3 +11,8 @@ This mod menu is very unstable, you can find compiled GTA112.sprx file in PS3_DE
 https://drive.google.com/drive/folders/1x8-AaSdrsnxU6Dw1DOF_Int1FKcrzVIt?usp=sharing
 
 GTA 5 Stuff Folder
+
+
+
+
+////// discord server: https://discord.gg/k8XZghtQNX
