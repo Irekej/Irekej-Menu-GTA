@@ -765,7 +765,7 @@ int draw_menu()
 	{
 #pragma region Main Menu
 	case Main_Menu:
-		addTitle("Irekej's Menu");
+		addTitle("PierogiSPRX");
 		addSubTitle("Main Menu");
 		addSubmenuOption("Players Options", Players_List, "Players in the session");
 		addSubmenuOption("Online Options", Online_Options, "Options for character");
@@ -778,7 +778,7 @@ int draw_menu()
 #pragma endregion
 #pragma region Online Options
 	case Online_Options:
-		addTitle("Irekej's Menu");
+		addTitle("PierogiSPRX");
 		addSubTitle("Online Options");
 		addOption("Give 5 MLN", " ");
 		addOption("Give 300 LVL", " ");
@@ -795,7 +795,7 @@ int draw_menu()
 #pragma endregion
 #pragma region Players List
 	case Players_List:
-		addTitle("Irekej's Menu");
+		addTitle("PierogiSPRX");
 		addSubTitle("Players List");
 		for (int i = 0; i < 18; i++)
 		{
@@ -810,7 +810,7 @@ int draw_menu()
 #pragma endregion
 #pragma region Player Options
 	case Player_Options:
-		addTitle("Irekej's Menu");
+		addTitle("PierogiSPRX");
 		addSubTitle(PLAYER::GET_PLAYER_NAME(selectedPlayer));
 		addSubmenuOption("Trolling", trolling, " ");
 		addSubmenuOption("Vehicle", pvehcile, " ");
@@ -825,7 +825,7 @@ int draw_menu()
 		}
 		break;
 	case trolling:
-		addTitle("Irekej's Menu");
+		addTitle("PierogiSPRX");
 		addSubTitle("Trolling Options");
 		addOption("Clone", " ");//done
 		addOption("Attach to Player", " ");//done
@@ -839,7 +839,7 @@ int draw_menu()
 		break;
 	case pvehcile:
 		Vehicle VehicleHandle = PED::GET_VEHICLE_PED_IS_IN(PLAYER::GET_PLAYER_PED(selectedPlayer), true);
-		addTitle("Irekej's Menu");
+		addTitle("PierogiSPRX");
 		addSubTitle("Vehicle Options");
 		addOption("Teleport Car To Me", " ");
 		addOption("Max Upgrade", " ");//done
@@ -901,7 +901,7 @@ int draw_menu()
 		}
 		break;
 	case pattch:
-		addTitle("Irekej's Menu");
+		addTitle("PierogiSPRX");
 		addSubTitle("Attachments");
 		addOption("");
 		switch (getOption())
@@ -910,7 +910,7 @@ int draw_menu()
 		}
 		break;
 	case pweapons:
-		addTitle("Irekej's Menu");
+		addTitle("PierogiSPRX");
 		addSubTitle("Weapon Options");
 		addOption("Take all Weapons", " ");
 		switch (getOption())
@@ -919,7 +919,7 @@ int draw_menu()
 		}
 		break;
 	case pdrops:
-		addTitle("Irekej's Menu");
+		addTitle("PierogiSPRX");
 		addSubTitle("Drop Options");
 		addCheckBool("Money Drop", loop40K_, " ");
 		switch (getOption())
@@ -928,7 +928,7 @@ int draw_menu()
 		}
 		break;
 	case psvehicle:
-		addTitle("Irekej's Menu");
+		addTitle("PierogiSPRX");
 		addSubTitle("Spawn Vehicle");
 		addPlayerVeh("Adder", "adder", "Adder Spawned", "1");//weird
 		switch (getOption())
@@ -939,7 +939,7 @@ int draw_menu()
 #pragma endregion
 #pragma region Self Options
 	case Self_Options:
-		addTitle("Irekej's Menu");
+		addTitle("PierogiSPRX");
 		addSubTitle("Self Options");
 		addCheckBool("Godmode", PLAYER::GET_PLAYER_INVINCIBLE(PLAYER::PLAYER_ID()));
 		addCheckBool("Never Wanted", NoCops, " ");;//done
@@ -976,7 +976,7 @@ int draw_menu()
 		}
 		break;
 	case ANIMATIONS:
-		addTitle("Irekej's Menu");
+		addTitle("PierogiSPRX");
 		addSubTitle("Animations");
 		addOption("Nothing", " ");
 		switch (getOption())
@@ -987,7 +987,7 @@ int draw_menu()
 #pragma endregion
 #pragma region Fun Shit
 	case funnyshit:
-		addTitle("Irekej's Menu");
+		addTitle("PierogiSPRX");
 		addSubTitle("Community Mods");
 		addCheckBool("First Person", fPerson, " ");
 		switch (getOption())
@@ -998,7 +998,7 @@ int draw_menu()
 #pragma endregion
 #pragma region Edit Carz
 	case editcunt:
-		addTitle("Irekej's Menu");
+		addTitle("PierogiSPRX");
 		addSubTitle("Edit Vehicle");
 		addCheckBool("Godmode", invinciblecar, " ");
 		addCheckBool("Invisibility", carinvstext, " ");
@@ -1066,7 +1066,7 @@ int draw_menu()
 #pragma endregion
 #pragma region Settings
 	case Settings:
-		addTitle("Irekej's Menu");
+		addTitle("PierogiSPRX");
 		addSubTitle("Settings");
 		addSubmenuOption("Banners", Settings_Banners);
 		addSubmenuOption("Body", Settings_Body);
@@ -1095,7 +1095,7 @@ int draw_menu()
 		}
 		break;
 	case Settings_Banners:
-		addTitle("Irekej's Menu");
+		addTitle("PierogiSPRX");
 		addSubTitle("Banners");
 		addIntOption("Text Red", &bannerTextRed, 0, 255, true);
 		addIntOption("Text Green", &bannerTextGreen, 0, 255, true);
@@ -1108,7 +1108,7 @@ int draw_menu()
 		addIntOption("Rect Opacity", &bannerRectOpacity, 0, 255, true);
 		break;
 	case Settings_Body:
-		addTitle("Irekej's Menu");
+		addTitle("PierogiSPRX");
 		addSubTitle("Body");
 		addIntOption("Text Red", &optionsRed, 0, 255, true);
 		addIntOption("Text Green", &optionsGreen, 0, 255, true);
@@ -1121,7 +1121,7 @@ int draw_menu()
 		addIntOption("Rect Opacity", &backgroundOpacity, 0, 255, true);
 		break;
 	case Settings_Scroller:
-		addTitle("Irekej's Menu");
+		addTitle("PierogiSPRX");
 		addSubTitle("Scroller");
 		addIntOption("Red", &scrollerRed, 0, 255, true);
 		addIntOption("Green", &scrollerGreen, 0, 255, true);
@@ -1129,7 +1129,7 @@ int draw_menu()
 		addIntOption("Opacity", &scrollerOpacity, 0, 255, true);
 		break;
 	case Settings_Indicators:
-		addTitle("Irekej's Menu");
+		addTitle("PierogiSPRX");
 		addSubTitle("Indicators");
 		addIntOption("Red", &indicatorRed, 0, 255, true);
 		addIntOption("Green", &indicatorGreen, 0, 255, true);
@@ -1139,7 +1139,7 @@ int draw_menu()
 #pragma endregion
 #pragma region Vehicle Binds
 	case vebindsm:
-		addTitle("Irekej's Menu");
+		addTitle("PierogiSPRX");
 		addSubTitle("Vehicle Binds");
 		addCheckBool("Boost(RR)", r3boost);
 		addCheckBool("Back Boost(L2)", l2bboost);
@@ -1158,7 +1158,7 @@ int draw_menu()
 #pragma endregion
 #pragma region Spawn Vehicle
 	case spawnv:
-		addTitle("Irekej's Menu");
+		addTitle("PierogiSPRX");
 		addSubTitle("Spawn Vehicle");
 		addOption("Adder", "adder");
 		addOption("Adder", "adder");
