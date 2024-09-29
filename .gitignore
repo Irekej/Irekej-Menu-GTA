@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+PS3_Debug/
+PS3_Release/
